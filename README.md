@@ -15,7 +15,7 @@ Have you ever used Apple's Messages app for your Mac? How about Gmail? What abou
 
 ## Nesting
 
-With __React-Router__, we can make accomplish the master detail pattern by making our components children of each other. Take YouTube for example. Let's pretend that visiting `/videos` displays a list of videos. Clicking on any video keeps our list of videos on the page, but also displays details on the selected video. This should be updated by the URL - the URL should have changed to `/videos/:videoId`. The VideoDetail in this case is a 'Nested Component' of `'/videos'` - it will always have the list rendered before it.
+With __React-Router__, we can make accomplish the master-detail pattern by making our components children of each other. Take YouTube for example. Let's pretend that visiting `/videos` displays a list of videos. Clicking on any video keeps our list of videos on the page, but also displays details on the selected video. This should be updated by the URL - the URL should have changed to `/videos/:videoId`. The VideoDetail in this case is a 'Nested Component' of `'/videos'` - it will always have the list rendered before it.
 
 ## Code Along
 
