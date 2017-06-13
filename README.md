@@ -120,7 +120,7 @@ const mapStateToProps = (state) => {
 export default connect(mapStateToProps)(MoviesPage);
 ```
 
-With the `MoviesPage` container we are now adding two `Route` components. You will notice that we are inheriting `match` from `this.props` this is a POJO that contains the current url. so we are able to show stuff depending on what the `match.url` returns. In the 2nd `Route` component we are defining a path of `${match.url}/:movieId`. This will load the MovieShow component when the url looks something like `movies/1`.
+With the `MoviesPage` container we are now adding two `Route` components. You will notice that we are inheriting `match` from `this.props` this is a POJO that contains the current url. so we are able to show stuff depending on what the `match.url` returns. The first `Route` component is defining a path of `${match.url}/:movieId`. This will load the MovieShow component when the url looks something like `movies/1`.
 
 Lets go ahead and make sure that our MoviesList component has links to get to this nested route. 
 
