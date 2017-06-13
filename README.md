@@ -70,7 +70,7 @@ export default MoviesList;
 
 ### Linking to the Show
 
-Right now, we're using __React Router__ to display the __MoviesPage__ component when the url is `/movies` (You can look at the code in `/src/containers/App.js`). Let's add in our first nested route so that going to '/movies/:movieId' will display details about a given movie using a __MoviesShow__ component.
+Right now, we're using __React Router__ to display the __MoviesPage__ component when the url is `/movies` (You can look at the code in `/src/containers/App.js`). Let's add in our first nested route so that going to `/movies/:movieId` will display details about a given movie using a __MoviesShow__ component.
 
 let's create our __MoviesShow__ component. Later on, we will see that this component will need to connect to the store in order to figure out which Movie it should render, but first let's put it in our `containers` directory.
 
